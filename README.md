@@ -8,14 +8,13 @@
 ## Usage
 
 ```javascript
-var mkdir = require('fs-force-mkdir');
-mkdir('./a/b/c', (error, info) => {
-    if (error) {
-        console.error('Failed');
-    } else {
-        console.log('Succeed');
-    }
-});
+var mkdirSync = require('fs-force-mkdir-sync');
+try {
+    let info = mkdirSync('./a/b/c');
+    console.log('Succeed', info);
+} catch (error) {
+    console.log('Failed', error);
+}
 ```
 
 The code above would check for existence of `'./a'`, `'./a/b'` and `'./a/b/c'`,
