@@ -16,7 +16,8 @@
 		"node": ">=6.0.0"
 	},
 	"dependencies": {
-		"just-try": ">=1.0.0 <2.0.0"
+		"just-try": ">=1.0.0 <2.0.0",
+		"fs-force-utils": "ksxnodemodules/fs-force-utils#v0.0.0"
 	},
 	"main": "index.js",
 	"keywords": [
