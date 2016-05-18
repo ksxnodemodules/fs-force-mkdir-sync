@@ -1,0 +1,30 @@
+
+{
+	"name": "fs-force-mkdir-sync",
+	"description": "Just provide a path to create directories",
+	"version": "0.0.0",
+	"author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
+	"contributors": [
+		"Hoàng Văn Khải <hvksmr1996@gmail.com>"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ksxnodemodules/fs-force-mkdir-sync.git"
+	},
+	"engines": {
+		"node": ">=6.0.0"
+	},
+	"dependencies": {
+		"just-try": ">=1.0.0 <2.0.0"
+	},
+	"main": "index.js",
+	"keywords": [
+		"force-mkdir",
+		"force-create-directory"
+	],
+	"bugs": {
+		"url": "https://github.com/ksxnodemodules/fs-force-mkdir-sync/issues"
+	},
+	"homepage": "https://github.com/ksxnodemodules/fs-force-mkdir-sync#readme"
+}
