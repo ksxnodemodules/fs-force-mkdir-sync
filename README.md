@@ -13,7 +13,7 @@ try {
     let info = mkdirSync('./a/b/c');
     console.log('Succeed', info);
 } catch (error) {
-    console.log('Failed', error);
+    console.error('Failed', error);
 }
 ```
 
